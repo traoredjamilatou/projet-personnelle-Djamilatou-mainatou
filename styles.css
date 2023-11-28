@@ -47,9 +47,9 @@ html ::-webkit-scrollbar-track{
 .home img{
     width: 100%;
 }
-section{
-    padding: 50px 100px;
-}
+ /*section{
+    padding: 50px 0px; 
+}*/
 header{
     position: fixed;
     width: 100%;
@@ -209,7 +209,7 @@ color: var(--main-color);
 
 .home{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem, 1fr));
     align-items: center;
@@ -225,7 +225,7 @@ color: var(--main-color);
     margin-bottom: 1rem; 
 }
 
-.cart{
+/* .cart{
     position: fixed;
     top: 0;
     right: -100%;
@@ -238,7 +238,7 @@ color: var(--main-color);
 }
 .cart.active{
     right: 0;   
-}
+} */
 #cart-icon{
     font-size: 1.8rem;
     cursor: pointer;

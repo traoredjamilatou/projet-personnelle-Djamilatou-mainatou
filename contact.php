@@ -21,17 +21,23 @@
     <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 </head>
 <body>
-
-<!-- <div class="logo">
-            <img src="27.webp" class="A">
-            <h4>Marque <span>MILA</span> </h4> -->
-       
-            <nav class="navbar navbar-expand-lg  bg-dark">
+<header>
+<!-- <div class="nav container"> -->
+ <nav class="navbar navbar-expand-lg  bg-dark">
   <div class="container-fluid">
   <div class="logo">
   <img src="27.webp" class="A">
   <h4>Marque <span>MILA</span> </h4> 
+  <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+            <!-- <i class='bx bx-search' id="search-icon"></i> -->
+            <!-- <i class='bx bx-user' id="user-icon"></i> -->
+            <!-- <i class='bx bx-cart-alt' id="cart2-icon"></i> -->
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+            <!-- <i class='bx bx-x' id="close-cart"></i> -->
+
 </div>
+
+
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -67,7 +73,7 @@
           </li>
       </ul>
     
-  <div class="header-icons">
+  <!-- <div class="header-icons">
             <i class='bx bx-menu' id="menu-icon"></i>
             <i class='bx bx-search' id="search-icon"></i>
             <i class='bx bx-user' id="user-icon"></i>
@@ -75,12 +81,12 @@
             <i class="bx bx-shopping-bag" id="cart-icon"></i>
             <i class='bx bx-x' id="close-cart"></i>
 
-        </div>
+        </div> -->
         <div class="search-box">
             <input type="search" name="" id="" placeholder="Search Here...">
         </div>
         <!-- User -->
-        <div class="user">
+        <!-- <div class="user">
             <h2>Login Now</h2>
             <input type="email" placeholder="Your Email...">
             <input type="password" name="" id="" placeholder="password">
@@ -100,11 +106,105 @@
     </div>
 </div> 
 
-        </div>
+        </div> -->
   </div>
 </nav>
 </div>
+<!-- </div> -->
+</header>
+<section class="home" id="home">
+  <div class="home-text">
+      <span>Achetez maintenant</span>
+      <h1>New Arrival of <br>Fresh Products</h1>
+      <a href="#" class="btn2">Achetez maintenant</a>
+  </div>
+  <div class="home-img">
+      <img src="images.jpg" alt="">
+  </div>
+</section>
 
+<!-- shop products -->
+
+<section class="shop container">
+  <h2 class="section-title">Articles a la une</h2> 
+  <!-- content  -->
+  <div class="shop-content">
+  
+      <!-- box 1 -->
+      <div class="product-box">
+          <img src="18.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 5</h2>
+          <span class="price">4000cfa</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+  
+       <!-- box 2 -->
+       <div class="product-box">
+          <img src="18.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 6</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+  
+       <!-- box 3 -->
+       <div class="product-box">
+          <img src="18.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 7</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+  
+       <!-- box 4 -->
+       <div class="product-box">
+          <img src="18.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 8</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+      
+  </div>
+  
+  
+  </section>
+  <section class="shop container">
+  <h2 class="section-title">Sac de luxe</h2>
+  <div class="shop-content">
+  
+       <!-- box 5 -->
+       <div class="product-box">
+          <img src="23.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 1</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+  
+       <!-- box 6 -->
+       <div class="product-box">
+          <img src="24.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 2</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+  
+       <!-- box 7 -->
+       <div class="product-box">
+          <img src="25.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 3</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div> 
+  
+       <!-- box 8 -->
+       <div class="product-box">
+          <img src="19.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 4</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+  </div>
+  </section> 
+
+  <!-- /shop products -->
 
 
 <script src="main.js"></script>

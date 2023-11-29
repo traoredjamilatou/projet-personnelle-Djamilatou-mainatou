@@ -1,52 +1,59 @@
-<h1>Inscription</h1>
-<form method="post" action="index.php"><br>
+<?php
+$serveur = "localhost"; 
+$utilisateur = "root";
+$motDePasse = ""; 
+$baseDeDonnees = "espace"; 
 
-  <!-- 2 column grid layout with text inputs for the first and last names -->
-  <div class="row mb-4">
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="nom" name="nom" class="form-control" placeholder="entrez votre nom" required/>
-        <label class="form-label" for="form3Example1">Nom</label>
-      </div>
+$connexion = new mysqli($serveur, $utilisateur, $motDePasse, $baseDeDonnees);
+
+if ($connexion->connect_error) {
+    die("La connexion a échoué : " . $connexion->connect_error);
+}
+
+$nom = $_POST['nom']; 
+$password = $_POST['password'];
+
+$requete = "SELECT * FROM users WHERE nom='$nom' AND password='$password'";
+$resultat = $connexion->query($requete);
+
+if ($resultat) {
+    if ($resultat->num_rows > 0) {
+        echo "Connexion réussie ! Bienvenue";
+    } else {
+        echo "Échec de la connexion. Veuillez vérifier vos identifiants.";
+    }
+} else {
+    echo "Erreur lors de l'exécution de la requête : " . $connexion->error;
+}
+
+$connexion->close();
+?>
+
+
+
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-6 mx-auto mt-5 form-container">
+            <h2 class="text-center mb-4">Connexion</h2>
+
+
+            <form method="post" action="traitement_connexion.php">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom :</label>
+                    <input type="text" class="form-control" id="nom" name="nom" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mot de passe :</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Se connecter</button>
+                </div>
+            </form>
+
+
+        </div>
     </div>
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="prenom" name="prenom" class="form-control" placeholder="entrez votre prenom" required/>
-        <label class="form-label" for="form3Example2">Prenom</label>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col">
-      <div class="form-outline">
-        <input type="text" id="pseudo" name="pseudo" class="form-control" placeholder="entrez votre pseudo" required/>
-        <label class="form-label" for="form3Example2">Nom d'utilisateur</label>
-      </div>
-    </div>
-    
-<!-- number input -->
-
-  <div class="form-outline mb-4">
-    <input type="phone" id="numero" name="numero" class="form-control" placeholder="entrez votre numero" required/>
-    <label class="form-label" for="form3Example3">Numero</label>
-  </div>
-
-  <!-- Email input -->
-  <div class="form-outline mb-4">
-    <input type="email" id="email" name="email" class="form-control" placeholder="entrez votre email" required/>
-    <label class="form-label" for="form3Example3"> Addresse Email</label>
-  </div>
-
-  <!-- Password input -->
-  <div class="form-outline mb-4">
-    <input type="pass" id="mdp" name="pass" class="form-control" placeholder="entrez votre mot de passe" required/>
-    <label class="form-label" for="form3Example4">Mot de passe</label>
-  </div>
-
-  
-  <!-- Submit button -->
-  <button type="submit" name="submit" class="btn btn-primary btn-block mb-4">Se connecter</button>
-
-  <!-- Register buttons -->
- 
-</form>
+</div> -->

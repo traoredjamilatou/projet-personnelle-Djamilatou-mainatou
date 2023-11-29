@@ -102,6 +102,9 @@ span{
 #menu-icon{
     display: none;
 }
+.navbar-toggler{
+    background-color: aliceblue;
+}
 .search-box{
     position: absolute;
     top: 110%;

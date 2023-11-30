@@ -15,7 +15,7 @@ $nom = $_POST['nom'];
 
 $password = $_POST['password'];
 
-$requete = "SELECT * FROM users WHERE nom='$nom' AND mot_de_passe='$password'";
+$requete = "SELECT * FROM users WHERE nom='$nom' AND password='$password'";
 $resultat = $connexion->query($requete);
 
 if ($resultat->num_rows > 0) {

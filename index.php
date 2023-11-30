@@ -25,80 +25,79 @@
 
     <!-- header -->
     <header>
+    <?php include ("menu.php") ?>
+ <!-- <nav class="navbar navbar-expand-lg  bg-dark">
+  <div class="container-fluid">
+  <div class="logo">
+  <img src="27.webp" class="A">
+  <h4>Marque <span>MILA</span> </h4> 
+</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 300px;">
+        <li class="nav-item">
+        
+            <a class="nav-link text-white" href="index.php">HOME</a>
+          </li>
+          <li class="nav-item">
+        
+            <a class="nav-link text-white" href="about.php">About</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            LES Produit
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="chaussure.php">Chaussure</a></li>
+            <li><a class="dropdown-item" href="sac.php">Sac</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.php">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="inscription.php">Inscription</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="connexion.php">Connexion</a>
+          </li>
+      </ul>
     
-      <?php include ("menu.php") ?>
-        <!-- <div class="logo">
-            <img src="27.webp" class="A">
-            <h4>Marque MILA</h4>
-        </div>
-        <ul class="navbar">
-            <li><a href="index.php">HOME</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="chaussure.php">Chaussure</a></li>
-            <li><a href="sac.php">Sac</a></li>
-            <li><a href="brague.php">Brague</a></li>
-            <li><a href="brague.php">Contact</a></li>
-        </ul>
-        <div class="header-icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-search' id="search-icon"></i>
-            <i class='bx bx-cart-alt' id="cart2-icon"></i>
-            <i class='bx bx-user' id="user-icon"></i>
+  <div class="header-icons">
+            
             <i class="bx bx-shopping-bag" id="cart-icon"></i>
-        </div>
-
-        <div class="search-box">
-            <input type="search" name="" id="" placeholder="Search Here...">
-        </div>
-
-        <div class="cart2">
-            <div class="box">
-                <img src="5.jpg" alt="">
-                <div class="text">
-                    <h3>T-Shirt 39P</h3>
-                    <span>5000f</span>
-                    <span>39</span>
-                </div>
-                <i class="bx bx-trash-alt"></i>
-            </div>
-
-            <div class="box">
-                <img src="4.jpg" alt="">
-                <div class="text">
-                    <h3>T-Shirt 40P</h3>
-                    <span>2000f</span>
-                    <span>40</span>
-                </div>
-                <i class="bx bx-trash-alt"></i>
-            </div>
-            <h2>Total:0f</h2>
-            <a href="#" class="btn">Vérifier</a>
-        </div>
-
-        <div class="user">
-            <h2>Login Now</h2>
-            <input type="email" placeholder="Your Email...">
-            <input type="password" name="" id="" placeholder="password">
-            <input type="submit" value="Login" class="login-btn">
-            <p>Mot de Passe Oublié <a href="#">Réinitialiser Maintenant</a></p>
-            <p>Je n'ai pas de compte<a href="#">Créer Une</a></p>
-        </div>
-        <div class="cart">
-        <h2 class="cart-title"> votre panier</h2>
-        <div class="cart-content">
-        </div>
-        <div class="total">
-            <div class="total-title">Total</div>
-            <div class="total-price">0</div>
-        </div>
-        <button type="button" class="btn-buy">Acheter maintenant</button>
-        <i class='bx bx-x' id="close-cart"></i>
-    </div>
-</div>  -->
+          </div>
+  <div class="cart">
+  <h2 class="cart-title"> votre panier</h2>
+<div class="cart-content">
+<div class="cart-box">
+<img src="18.webp" alt="" class="cart-img">
+<div class="detail-box">
+<div class="cart-product-title">SAC 5</div>
+<div class="cart-price">4000CFA</div>
+<input type="number" value="1" class="cart-quantity">
+</div>
+<i class='bx bxs-trash-alt cart-remove' ></i>
+     </div>
+  </div>
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">0</div>
+  </div>
+  <button type="button" class="btn-buy">Acheter maintenant</button>
+  <i class='bx bx-x' id="close-cart"></i> 
+  </div>
+</div> 
+</nav> -->      
     </header>
     
+    
+    
     <!-- home -->
-    <section class="home" id="home">
+     <section class="home" id="home">
         <div class="home-text">
             <span>Achetez maintenant</span>
             <h1>New Arrival of <br>Fresh Products</h1>
@@ -107,14 +106,13 @@
         <div class="home-img">
             <img src="images.jpg" alt="">
         </div>
-    </section>
+    </section> 
     
-    <section class="shop container">
+   <section class="shop container">
 <h2 class="section-title">Articles a la une</h2> 
-<!-- content  -->
-<div class="shop-content">
 
-    <!-- box 1 -->
+ <div class="shop-content">
+
     <div class="product-box">
         <img src="18.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 5</h2>
@@ -122,23 +120,20 @@
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
-     <!-- box 2 -->
      <div class="product-box">
-        <img src="19.webp" alt="" class="product-img">
+        <img src="6.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 6</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
-     <!-- box 3 -->
      <div class="product-box">
-        <img src="21.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 7</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
-     <!-- box 4 -->
      <div class="product-box">
         <img src="22.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 8</h2>
@@ -154,7 +149,6 @@
 <h2 class="section-title">Sac de luxe</h2>
 <div class="shop-content">
 
-     <!-- box 5 -->
      <div class="product-box">
         <img src="23.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 1</h2>
@@ -162,7 +156,6 @@
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
-     <!-- box 6 -->
      <div class="product-box">
         <img src="24.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 2</h2>
@@ -170,7 +163,6 @@
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
-     <!-- box 7 -->
      <div class="product-box">
         <img src="25.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 3</h2>
@@ -178,7 +170,6 @@
         <i class='bx bx-shopping-bag add-cart'></i>
     </div> 
 
-     <!-- box 8 -->
      <div class="product-box">
         <img src="19.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 4</h2>
@@ -186,7 +177,7 @@
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 </div>
-</section> 
+</section>
 
 <!-- Marketing messaging and featurettes
       ================================================== -->
@@ -217,7 +208,6 @@
           </div>
         </div>
       </div> 
-      <!-- START THE FEATURETTES -->
         <section class="B">
        <hr class="featurette-divider">
        <div class="row featurette">
@@ -252,7 +242,7 @@
          </div>
        </div> <br> <br> <br>
    </div>
-  </section> 
+  </section>  
 
   <section class="omni">
     <?php include ("footer.php") ?>

@@ -44,10 +44,10 @@
             </div>
           </div>
           <div>
-            <p class="Z">GAGNEZ DE L'ARGENT AVEC ....</p>
+            <p class="Z">GAGNEZ DE L'ARGENT AVEC</p>
             <div class="a">
               <i class="bi bi-check"></i>
-              <p>Vendez sur ....</p>
+              <p>Acheter sur <span>Mila Market</span</p>
             </div>
             <div class="b">
               <i class="bi bi-check"></i>
@@ -55,16 +55,16 @@
             </div>
             <div class="c">
               <i class="bi bi-check"></i>
-              <p>Devenez Consultant ....</p>
+              <p>Devenez Consultant de <span>Mila Market</span></p>
             </div>
             <div class="d">
               <i class="bi bi-check"></i>
-              <p>Devenir partenaire de service logistique</p>
+              <p>Devenir partenaire de <span>Mila Market</span</p>
             </div>
-            <div class="e">
+            <!-- <div class="e">
               <i class="bi bi-check"></i>
               <p>Devenir partenaire de service logistique</p>
-            </div>
+            </div> -->
           </div>
 
           <div>
@@ -75,24 +75,24 @@
             </div>
             <div class="h">
               <i class="bi bi-check"></i>
-              <p>Commandez par Tél: 05.22.04.18.18</p>
+              <p>Commandez par Tél: 65.90.44.32</p>
             </div>
-            <div class="j">
+            <!-- <div class="j">
               <i class="bi bi-check"></i>
               <p>Acheter sur ....</p>
-            </div>
+            </div> -->
             <div class="k">
               <i class="bi bi-check"></i>
-              <p>Utiliser un Bon d'achat</p>
+              <p>Utiliser un Bon d'achat sur <span>Mila Market</span</p>
             </div>
             <div class="l">
               <i class="bi bi-check"></i>
-              <p>Modalités de Livraison</p>
+              <p>Modalités de Livraison avec <span>Mila Market</span</p>
             </div>
           </div>
 </div>
         <div class="m">
-          <P class="o">Propulsé par. FasoCompute.</P>
+          <P class="o">Propulsé par FasoCompute.</P>
           <div class="n">
             <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
           </div>

@@ -8,6 +8,8 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
   <!-- cdn fontawsam -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
   <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="annanymous"></script>
   <!-- cdn swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -27,52 +29,69 @@
 <header>
 <?php include ("menu.php") ?>
 
-
-<!-- <div class="logo">
-            <img src="27.webp" class="A">
-            <h4>Marque <span>MILA</span> </h4>
-        </div>
-        <ul class="navbar">
-            <li><a href="index.php">HOME</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="chaussure.php">Chaussure</a></li>
-            <li><a href="sac.php">Sac</a></li>
-            <li><a href="brague.php">Brague</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="inscription.php">Inscription</a></li>
-            <li><a href="connexion.php">connexion</a></li>
-        </ul>
-        <div class="header-icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-search' id="search-icon"></i>
-            <i class='bx bx-user' id="user-icon"></i>
+ <!-- <nav class="navbar navbar-expand-lg  bg-dark">
+  <div class="container-fluid">
+  <div class="logo">
+  <img src="27.webp" class="A">
+  <h4>Marque <span>MILA</span> </h4> 
+</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 300px;">
+        <li class="nav-item">
+        
+            <a class="nav-link text-white" href="index.php">HOME</a>
+          </li>
+          <li class="nav-item">
+        
+            <a class="nav-link text-white" href="about.php">About</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            LES Produit
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="chaussure.php">Chaussure</a></li>
+            <li><a class="dropdown-item" href="sac.php">Sac</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.php">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="inscription.php">Inscription</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="connexion.php">Connexion</a>
+          </li>
+      </ul>
             <i class="bx bx-shopping-bag" id="cart-icon"></i>
-            <i class='bx bx-x' id="close-cart"></i>
+  <div class="cart">
+  <h2 class="cart-title"> votre panier</h2>
+<div class="cart-content">
+<div class="cart-box">
+<img src="18.webp" alt="" class="cart-img">
+<div class="detail-box">
+<div class="cart-product-title">SAC 5</div>
+<div class="cart-price">4000CFA</div>
+<input type="number" value="1" class="cart-quantity">
+</div>
+<i class='bx bxs-trash-alt cart-remove' ></i>
+     </div>
+  </div>
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">0</div>
+  </div>
+  <button type="button" class="btn-buy">Acheter maintenant</button>
+  <i class='bx bx-x' id="close-cart"></i> 
+  </div>
+</div>
+</nav>  -->
 
-        </div>
-
-        <div class="search-box">
-            <input type="search" name="" id="" placeholder="Search Here...">
-        </div>
-        <div class="user">
-            <h2>Login Now</h2>
-            <input type="email" placeholder="Your Email...">
-            <input type="password" name="" id="" placeholder="password">
-            <input type="submit" value="Login" class="login-btn">
-            <p>Mot de Passe Oublié <a href="#">Réinitialiser Maintenant</a></p>
-            <p>Je n'ai pas de compte<a href="#">Créer Une</a></p>
-        </div>
-        <div class="cart">
-        <h2 class="cart-title"> votre panier</h2>
-        <div class="cart-content">
-        </div>
-        <div class="total">
-            <div class="total-title">Total</div>
-            <div class="total-price">0</div>
-        </div>
-        <button type="button" class="btn-buy">Acheter maintenant</button>
-    </div>
-</div>  -->
 
 </header>
   <div class="home1" id="home1">
@@ -84,10 +103,10 @@
             <img src="26.jpg" alt="">
           </div>
           <div class="content">
-            <h3>grow ams business</h3>
-            <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
+            <h3>Développer mon activité</h3>
+            <p>Une site unique qui vous permettra d'achat vos different produit en ligne et partout.
             </p>
-            <a href="#" class="no">Get start</a>
+            <a href="#" class="no">Commencer</a>
           </div>
         
         <div class="swiper-button-next"></div>
@@ -96,7 +115,77 @@
     </div>
   </div>
   
-  <section class="about" id="about">
+  <section class="shop container">
+<h2 class="section-title">Articles a la une</h2> 
+
+ <div class="shop-content">
+
+    <div class="product-box">
+        <img src="18.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 5</h2>
+        <span class="price">4000cfa</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+     <div class="product-box">
+        <img src="19.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 6</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+     <div class="product-box">
+        <img src="21.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 7</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+     <div class="product-box">
+        <img src="22.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 8</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+    
+</div>
+
+</section>
+<section class="shop container">
+<!-- <h2 class="section-title">Sac de luxe</h2> -->
+<div class="shop-content">
+
+     <div class="product-box">
+        <img src="23.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 1</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+     <div class="product-box">
+        <img src="24.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 2</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+     <div class="product-box">
+        <img src="25.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 3</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div> 
+
+     <div class="product-box">
+        <img src="19.webp" alt="" class="product-img">
+        <h2 class="product-title">SAC 4</h2>
+        <span class="price">4000CFA</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+</div>
+</section>
+  
+  <!-- <section class="about" id="about">
     <div class="rw">
       <div class="images">
         <img src="6.jpg" alt="">
@@ -133,7 +222,7 @@
             </div>
 
             <div class="icons-about">
-              <i class="fa-solid fa-shield-halved"></i>v
+              <i class="fa-solid fa-shield-halved"></i>
               <h4>Des rapports essentiels</h4>
               <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de
                 mon site web.
@@ -143,219 +232,9 @@
         </div>
       </div>
     </div>
-    
-  <div class="achiv">
-  <div class="content">
-    <i class="fa-solid fa-face-laugh-beam"><span>232</span></i>
-    <p>la satisfaction des clients</p>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-book"><span>521</span></i>
-    <p>mon parcour</p>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-headset"><span>1463</span></i>
-    <p>heureux clinets conséquence</p>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-user-group"><span>232</span></i>
-    <p>ma familles</p>
-  </div>
-  </div>
-  </section>
+  </section> -->
  
- <section class="services" id="services">
-<h2 class="heading">notre services</h2>
-<div class="row">
 
- <div class="box">
-  <i class="fa-solid fa-briefcase"></i>
-  <h3>Vendez au Burkina Faso</h3>
-  <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
-</div>
-
-<div class="box">
-  <i class="fa-solid fa-list-check"></i>
-  <h3>Vendez au Burkina Faso</h3>
-  <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
-</div>
-
-<div class="box">
-  <i class="fa-solid fa-chart-column"></i>
-  <h3>Vendez au Burkina Faso</h3>
-  <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
-</div>
-</div>
-</section>
-  
-<section class="portfolio" id="portfolio">
-<h2 class="heading">mes images</h2>
-<div class="ron">
-
-<div class="box">
-<img src="4.jpg" alt="">
-</div>
-
-<div class="box">
-  <img src="6.jpg" alt="">
-  </div>
-  
-  <div class="box">
-    <img src="7.jpg" alt="">
-    </div>
-    
-    <div class="box">
-      <img src="4.jpg" alt="">
-      </div>
-      
-      <div class="box">
-        <img src="6.jpg" alt="">
-        </div>
-        
-        <div class="box">
-          <img src="7.jpg" alt="">
-          </div>
-</div>
-</section>
-
- <div class="team">
-<h2 class="heading">our team</h2>
-<div class="rom">
-
-<div class="box">
-<div class="images">
-<img src="4.jpg" alt="">
-</div>
-<div class="content">
-<h3>sarah jons</h3>
-<div class="sochial">
-<i class="fa-brands fa-fecebook"></i>
-<i class="fa-brands fa-instagram"></i>
-<i class="fa-brands fa-twitter"></i>
-<i class="fa-brands fa-youtube"></i>
-</div>
-</div>
-</div>
-
-<div class="box">
-  <div class="images">
-  <img src="6.jpg" alt="">
-  </div>
-  <div class="content">
-  <h3>sarah jons</h3>
-  <div class="sochial">
-  <i class="fa-brands fa-fecebook"></i>
-  <i class="fa-brands fa-instagram"></i>
-  <i class="fa-brands fa-twitter"></i>
-  <i class="fa-brands fa-youtube"></i>
-  </div>
-  </div>
-  </div>
-  
-  <div class="box">
-    <div class="images">
-    <img src="7.jpg" alt="">
-    </div>
-    <div class="content">
-    <h3>sarah jons</h3>
-    <div class="sochial">
-    <i class="fa-brands fa-fecebook"></i>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-youtube"></i>
-    </div>
-    </div>
-    </div>
-    <div class="box">
-      <div class="images">
-      <img src="4.jpg" alt="">
-      </div>
-      <div class="content">
-      <h3>sarah jons</h3>
-      <div class="sochial">
-      <i class="fa-brands fa-fecebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-youtube"></i>
-      </div>
-      </div>
-      </div>
-</div>
-</div>
-<section class="contact">
-  <h1 class="h">Contact</h1>
-  <form action="">
-      <div class="left-right">
-      <div class="left">
-          <label>Nom complet</label>
-          <input type="text">
-          <label>Objet</label>
-          <input type="text">
-          <label>Email</label>
-          <input type="text">
-          <label>Message</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-      </div>
-      <div class="right">
-          <label>Numero</label>
-          <input type="text">
-          <label>Date</label>
-          <input type="text">
-          <label>Autres détails</label>
-          <input type="text">
-          <label>Adresse</label>
-<iframe src="c1.jpg" frameborder="0"></iframe>
-      </div>
-  </div>
-  </form>
-  <button>envoyer</button>
-
-</section>
-
-
-</section>
-
-
-<!-- <section class="contact" id="cantact">
-<h2 class="contact">Contact us</h2>
-<div class="box">
-
-<div class="content">
-<i class="fa-solid fa-mobile-screen"></i>
-<div>+226 65 90 44 32</div>
-<div>7/7(7h-22h)</div>
-</div>
-
-<div class="content">
-  <i class="fa-solid fa-location-dot"></i>
-  <div>location:secteur21</div>
-  <div>secteur21</div>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-envelope"></i>
-    <div>email:djamilatraore31@gmail.com</div>
-    <div>web:www.exaple.com</div>
-    </div>
-    <div class="row">
-    <div class="ifarm">
-    <iframe src="https://www.google.com/maps/embeb?pb=!1m18!1m12!1m3!1d55251.37708695647!2d31.29339795" frameborder="0"></iframe>
-    </div>
-    <div class="form-c">
-    <form action="">
-    <input type="text" placeholder="name">
-    <input type="email" placeholder="email">
-    <input type="number" placeholder="phone">
-<textarea name="" id="" cols="30" rows="10"></textarea>
-<input type="submit" value="send message">
-    </form>
-    </div>
-    </div>
-</div>
-</section>  -->
 
 
 

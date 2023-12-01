@@ -57,16 +57,15 @@
   <h2 class="cart-title"> votre panier</h2>
 <!-- content -->
 <div class="cart-content">
-<div class="cart-box">
-<img src="18.webp" alt="" class="cart-img">
+<!--<div class="cart-box">
+ <img src="18.webp" alt="" class="cart-img">
 <div class="detail-box">
 <div class="cart-product-title">SAC 5</div>
 <div class="cart-price">4000CFA</div>
 <input type="number" value="1" class="cart-quantity">
 </div>
-<!-- remove cart -->
-<i class='bx bxs-trash-alt cart-remove' ></i>
-     </div>
+<i class='bx bxs-trash-alt cart-remove' ></i> 
+     </div>-->
   </div>
   <!-- Total -->
   <div class="total">

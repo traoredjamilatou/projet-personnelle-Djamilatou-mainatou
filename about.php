@@ -18,7 +18,7 @@
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
 </head>
-<title>Document</title>
+<title>About</title>
 </head>
 
 <body>

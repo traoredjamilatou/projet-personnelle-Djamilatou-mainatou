@@ -181,3 +181,234 @@ span {
     color: var(--text-color);
     cursor: pointer;
 }
+.container{
+    margin-bottom: 100px;
+}
+.contact .rows{
+    display: flex;
+  justify-content: space-around;
+    text-align: center;
+}
+
+.contact .rows i{
+    font-size: 3rem;
+    color: rgb(30, 165, 30);
+}
+
+.contact .rows div{
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.8);
+    margin: 1rem 0;
+} 
+
+.loca .rows  {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* footer */
+/* footer */
+
+.omni{
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    padding: 45px 10px 15px 10px;
+} 
+.D{
+    display: flex;
+    margin-bottom: 30px;
+}
+.D img{
+    padding-top: 16px;
+    padding-left: 150px;
+    width: 20%;
+}
+.D h5{
+    color: aliceblue;
+}
+.D p{
+    color: aliceblue;
+}
+.footer{
+    background-color: rgb(77, 78, 77);
+    height: 350px;
+    display: flex;
+    color: #fff;
+}
+.footer img{
+    padding-top: 40px;
+    padding-left: 150px;
+    width: 60%;
+}
+.T{
+    padding-left: 150px;
+    padding-top: 10px;
+}
+.R {
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 1.25rem;
+}
+.S{
+    display: flex;
+    padding-left: 80px;
+}
+.S p{
+    padding-left: 20px;
+}
+.V{
+    display: flex;
+    padding-left: 80px;
+}
+.V p{
+    padding-left: 20px;
+}
+.W{
+    display: flex;
+    padding-left: 80px;
+}
+.W p{
+    padding-left: 20px;
+}
+.X{
+    display: flex;
+    padding-left: 80px;
+    color: #fff;
+    font-size: 20px;
+}
+.i{
+    padding-left: 20px;
+}
+.Z {
+    padding-top: 35px;
+    padding-left: 80px;
+    font-size: 1.25rem;
+}
+.a{
+    display: flex;
+    padding-left: 80px;
+}
+.a i{
+    font-size: 1.50rem;
+}
+.a p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.b{
+    display: flex;
+    padding-left: 80px;
+}
+.b i{
+    font-size: 1.50rem;
+}
+.b p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.c{
+    display: flex;
+    padding-left: 80px;
+}
+.c i{
+    font-size: 1.50rem;
+}
+.c p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.d{
+    display: flex;
+    padding-left: 80px;
+}
+.d i{
+    font-size: 1.50rem;
+}
+.d p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.e{
+    display: flex;
+    padding-left: 80px;
+}
+.e i{
+    font-size: 1.50rem;
+}
+.e p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.f {
+    padding-top: 35px;
+    padding-left: 80px;
+    font-size: 1.50rem;
+}
+ .g{
+    display: flex;
+    padding-left: 80px;
+}
+.g i{
+    font-size: 1.50rem;
+}
+.g p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.h{
+    display: flex;
+    padding-left: 80px;
+}
+.h i{
+    font-size: 1.50rem;
+}
+.h p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.j{
+    display: flex;
+    padding-left: 80px;
+}
+.j i{
+    font-size: 1.50rem;
+}
+.j p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.k{
+    display: flex;
+    padding-left: 80px;
+}
+.k i{
+    font-size: 1.50rem;
+}
+.k p{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.l{
+    display: flex;
+    padding-left: 80px;
+}
+.l i{
+    font-size: 1.50rem;
+}
+.l p{
+    padding-left: 20px;
+    padding-top: 7px;
+} 
+.m{
+    display: flex;
+    color: #fff;
+    padding-top: 30px;
+}
+.n{
+    padding-left: 700px;
+}
+.o{
+    padding-left: 150px;
+} 

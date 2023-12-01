@@ -107,7 +107,9 @@ span{
 .home img{
     width: 100%;
 }
-
+.B{
+    padding: 0 150px 0 150px;
+}
 .btn2{
     padding: 0.7rem 1.2rem;
     background: var(--main-color);

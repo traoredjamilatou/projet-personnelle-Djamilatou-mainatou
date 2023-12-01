@@ -106,7 +106,7 @@
             <h3>Développer mon activité</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne et partout.
             </p>
-            <a href="#" class="no">Commencer</a>
+            <!-- <a href="#" class="no">Commencer</a> -->
           </div>
         
         <div class="swiper-button-next"></div>
@@ -121,28 +121,28 @@
  <div class="shop-content">
 
     <div class="product-box">
-        <img src="18.webp" alt="" class="product-img">
+        <img src="5.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 5</h2>
         <span class="price">4000cfa</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="19.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 6</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="21.webp" alt="" class="product-img">
+        <img src="6.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 7</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="22.webp" alt="" class="product-img">
+        <img src="4.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 8</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
@@ -156,36 +156,36 @@
 <div class="shop-content">
 
      <div class="product-box">
-        <img src="23.webp" alt="" class="product-img">
+        <img src="5.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 1</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="24.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 2</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="25.webp" alt="" class="product-img">
+        <img src="6.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 3</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div> 
 
      <div class="product-box">
-        <img src="19.webp" alt="" class="product-img">
+        <img src="4.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 4</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 </div>
 </section>
-  
-  <!-- <section class="about" id="about">
+   
+  <section class="about" id="about">
     <div class="rw">
       <div class="images">
         <img src="6.jpg" alt="">
@@ -232,7 +232,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section> --> -->
  
 
 

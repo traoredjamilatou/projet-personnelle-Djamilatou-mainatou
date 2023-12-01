@@ -17,7 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
-    <title>Home</title>
+    <title>Sac</title>
 </head>
 <body>
 
@@ -100,7 +100,7 @@
             <h3>grow ams business</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
             </p>
-            <a href="#" class="no">Get start</a>
+            <!-- <a href="#" class="no">Get start</a> -->
           </div>
         
         <div class="swiper-button-next"></div>
@@ -117,28 +117,28 @@
  <div class="shop-content">
 
     <div class="product-box">
-        <img src="18.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0005.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 5</h2>
         <span class="price">4000cfa</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="19.webp" alt="" class="product-img">
+        <img src="23.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 6</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="21.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0009.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 7</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="22.webp" alt="" class="product-img">
+        <img src="25.webp" alt="" class="product-img">
         <h2 class="product-title">SAC 8</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
@@ -152,7 +152,7 @@
 <div class="shop-content">
 
      <div class="product-box">
-        <img src="23.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0007.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 1</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
@@ -166,7 +166,7 @@
     </div>
 
      <div class="product-box">
-        <img src="25.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 3</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
@@ -195,14 +195,14 @@
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="rounded-circle" src="25.webp" alt="Generic placeholder image" width="150" height="150">
+            <img class="rounded-circle" src="IMG-20231113-WA0020.jpg" alt="Generic placeholder image" width="150" height="150">
             <h2>Titre</h2>
             <h3>Une interface de gestion unifiée</h3>
             <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre de points de vente.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="rounded-circle" src="21.webp" alt="Generic placeholder image" width="150" height="150">
+            <img class="rounded-circle" src="25.webp" alt="Generic placeholder image" width="150" height="150">
             <h2>Titre</h2>
             <h3>Des rapports essentiels</h3>
             <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon site web.</p>

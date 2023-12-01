@@ -114,30 +114,30 @@
  <div class="shop-content">
 
     <div class="product-box">
-        <img src="18.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 5</h2>
-        <span class="price">4000cfa</span>
+        <span class="price">6000cfa</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="6.jpg" alt="" class="product-img">
+        <img src="IMG-20231113-WA0008.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 6</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
+        <img src="IMG-20231113-WA0009.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 7</h2>
-        <span class="price">4000CFA</span>
+        <span class="price">6500CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="22.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0020.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 8</h2>
-        <span class="price">4000CFA</span>
+        <span class="price">6000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
     
@@ -150,30 +150,30 @@
 <div class="shop-content">
 
      <div class="product-box">
-        <img src="23.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 1</h2>
-        <span class="price">4000CFA</span>
+        <span class="price">2000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="24.webp" alt="" class="product-img">
+        <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 2</h2>
-        <span class="price">4000CFA</span>
+        <span class="price">2000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 
      <div class="product-box">
-        <img src="25.webp" alt="" class="product-img">
+        <img src="6.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 3</h2>
-        <span class="price">4000CFA</span>
+        <span class="price">6000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div> 
 
      <div class="product-box">
-        <img src="19.webp" alt="" class="product-img">
+        <img src="5.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 4</h2>
-        <span class="price">4000CFA</span>
+        <span class="price">6000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 </div>
@@ -193,14 +193,14 @@
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="rounded-circle" src="18.webp" alt="Generic placeholder image" width="150" height="150">
+            <img class="rounded-circle" src="IMG-20231113-WA0005.jpg" alt="Generic placeholder image" width="150" height="150">
             <h2>Titre</h2>
             <h3>Une interface de gestion unifiée</h3>
             <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre de points de vente.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="rounded-circle" src="19.webp" alt="Generic placeholder image" width="150" height="150">
+            <img class="rounded-circle" src="18.webp" alt="Generic placeholder image" width="150" height="150">
             <h2>Titre</h2>
             <h3>Des rapports essentiels</h3>
             <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon site web.</p>
@@ -216,7 +216,7 @@
            <p class="lead">Le moyen le plus simple de convertir des clients potentiels et de saisir chaque paiement.</p>
          </div>
          <div class="col-md-5">
-           <img class="featurette-image img-fluid mx-auto" src="6.jpg" alt="Generic placeholder image">
+           <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0012.jpg" alt="Generic placeholder image">
          </div>
        </div>
 
@@ -227,7 +227,7 @@
            <p class="lead">Développez mon entreprise au Burkina Faso et rationalisez mon activité de vente,le tout à partir d’une seule et même site.</p>
          </div>
          <div class="col-md-5 order-md-1">
-           <img class="featurette-image img-fluid mx-auto" src="8.jpg" alt="Generic placeholder image">
+           <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0008.jpg" alt="Generic placeholder image">
          </div>
        </div>
 
@@ -238,7 +238,7 @@
            <p class="lead">Vendez à la fois à mais clients grossistes et aux acheteur à partir d’une même plateforme et d’une même boutique en ligne grace au site.</p>
          </div>
          <div class="col-md-5">
-           <img class="featurette-image img-fluid mx-auto" src="10.jpg" alt="Generic placeholder image">
+           <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0009.jpg" alt="Generic placeholder image">
          </div>
        </div> <br> <br> <br>
    </div>

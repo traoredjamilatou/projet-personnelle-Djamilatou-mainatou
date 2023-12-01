@@ -92,7 +92,7 @@
           </div>
 </div>
         <div class="m">
-          <P class="o">Propulsé par FasoCompute.</P>
+          <P class="o">Propulsé par MILA MARKET.</P>
           <div class="n">
             <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
           </div>

@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-    <title>home</title>
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+  <title>home</title>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-<!-- link to css -->
-<link rel="stylesheet" href="styles.css">
-    <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <!-- Box Icons -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <!-- link to css -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 </head>
-<body>
-<!-- header -->
 
-    <!-- header -->
-    <header>
+<body>
+  <!-- header -->
+
+  <!-- header -->
+  <header>
     <?php include ("menu.php") ?>
- <!-- <nav class="navbar navbar-expand-lg  bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg  bg-dark">
   <div class="container-fluid">
   <div class="logo">
   <img src="27.webp" class="A">
@@ -91,163 +93,170 @@
   <i class='bx bx-x' id="close-cart"></i> 
   </div>
 </div> 
-</nav> -->      
-    </header>
-    
-    
-    
-    <!-- home -->
-     <section class="home" id="home">
-        <div class="home-text">
-            <span>Achetez maintenant</span>
-            <h1>New Arrival of <br>Fresh Products</h1>
-            <a href="#" class="btn2">Achetez maintenant</a>
-        </div>
-        <div class="home-img">
-            <img src="images.jpg" alt="">
-        </div>
-    </section> 
-    
-   <section class="shop container">
-<h2 class="section-title">Articles a la une</h2> 
+</nav> -->
+  </header>
 
- <div class="shop-content">
 
-    <div class="product-box">
+
+  <!-- home -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <span>Achetez maintenant</span>
+      <h1>New Arrival of <br>Fresh Products</h1>
+      <a href="#" class="btn2">Achetez maintenant</a>
+    </div>
+    <div class="home-img">
+      <img src="ww.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="shop container">
+    <h2 class="section-title">Articles a la une</h2>
+
+    <div class="shop-content">
+
+      <div class="product-box">
         <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 5</h2>
         <span class="price">6000cfa</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      </div>
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="IMG-20231113-WA0008.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 6</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      </div>
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="IMG-20231113-WA0009.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 7</h2>
         <span class="price">6500CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      </div>
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="IMG-20231113-WA0020.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 8</h2>
         <span class="price">6000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
     </div>
-    
-</div>
 
 
-</section>
-<section class="shop container">
-<h2 class="section-title">Sac de luxe</h2>
-<div class="shop-content">
+  </section>
+  <section class="shop container">
+    <h2 class="section-title">Sac de luxe</h2>
+    <div class="shop-content">
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 1</h2>
         <span class="price">2000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      </div>
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 2</h2>
         <span class="price">2000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      </div>
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="6.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 3</h2>
         <span class="price">6000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div> 
+      </div>
 
-     <div class="product-box">
+      <div class="product-box">
         <img src="5.jpg" alt="" class="product-img">
         <h2 class="product-title">SAC 4</h2>
         <span class="price">6000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
     </div>
-</div>
-</section>
+  </section>
 
-<!-- Marketing messaging and featurettes
+  <!-- Marketing messaging and featurettes
       ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container marketing">
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="container marketing">
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="25.webp" alt="Generic placeholder image" width="150" height="150">
-            <h2>Titre</h2>
-            <h3>Des expériences d’achat flexibles</h3>
-            <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de retour simplifiée.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="IMG-20231113-WA0005.jpg" alt="Generic placeholder image" width="150" height="150">
-            <h2>Titre</h2>
-            <h3>Une interface de gestion unifiée</h3>
-            <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre de points de vente.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="18.webp" alt="Generic placeholder image" width="150" height="150">
-            <h2>Titre</h2>
-            <h3>Des rapports essentiels</h3>
-            <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon site web.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-      </div> 
-        <section class="B">
-       <hr class="featurette-divider">
-       <div class="row featurette">
-         <div class="col-md-7">
-         <h2 class="featurette-heading">Propulsez votre entreprise avec le processus de paiement le plus performant au monde.</h2> <br>
-           <p class="lead">Le moyen le plus simple de convertir des clients potentiels et de saisir chaque paiement.</p>
-         </div>
-         <div class="col-md-5">
-           <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0012.jpg" alt="Generic placeholder image">
-         </div>
-       </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="25.webp" alt="Generic placeholder image" width="150" height="150">
+        <h2>Titre</h2>
+        <h3>Des expériences d’achat flexibles</h3>
+        <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de
+          retour simplifiée.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="IMG-20231113-WA0005.jpg" alt="Generic placeholder image" width="150"
+          height="150">
+        <h2>Titre</h2>
+        <h3>Une interface de gestion unifiée</h3>
+        <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre de
+          points de vente.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="18.webp" alt="Generic placeholder image" width="150" height="150">
+        <h2>Titre</h2>
+        <h3>Des rapports essentiels</h3>
+        <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon
+          site web.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+  <section class="B">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Propulsez votre entreprise avec le processus de paiement le plus performant au
+          monde.</h2> <br>
+        <p class="lead">Le moyen le plus simple de convertir des clients potentiels et de saisir chaque paiement.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0012.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
 
-       <hr class="featurette-divider">
-       <div class="row featurette">
-         <div class="col-md-7 order-md-2">
-           <h2 class="featurette-heading">Vendez mais produits au Burkina Faso.</h2>
-           <p class="lead">Développez mon entreprise au Burkina Faso et rationalisez mon activité de vente,le tout à partir d’une seule et même site.</p>
-         </div>
-         <div class="col-md-5 order-md-1">
-           <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0008.jpg" alt="Generic placeholder image">
-         </div>
-       </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Vendez mais produits au Burkina Faso.</h2>
+        <p class="lead">Développez mon entreprise au Burkina Faso et rationalisez mon activité de vente,le tout à partir
+          d’une seule et même site.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0008.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
 
-       <hr class="featurette-divider">
-       <div class="row featurette">
-         <div class="col-md-7">
-           <h2 class="featurette-heading">Vendez en gros.</h2>
-           <p class="lead">Vendez à la fois à mais clients grossistes et aux acheteur à partir d’une même plateforme et d’une même boutique en ligne grace au site.</p>
-         </div>
-         <div class="col-md-5">
-           <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0009.jpg" alt="Generic placeholder image">
-         </div>
-       </div> <br> <br> <br>
-   </div>
-  </section>  
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Vendez en gros.</h2>
+        <p class="lead">Vendez à la fois à mais clients grossistes et aux acheteur à partir d’une même plateforme et
+          d’une même boutique en ligne grace au site.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="IMG-20231113-WA0009.jpg" alt="Generic placeholder image">
+      </div>
+    </div> <br> <br> <br>
+    </div>
+  </section>
 
   <section class="omni">
     <?php include ("footer.php") ?>
 
-     <!-- <div class="D">
+    <!-- <div class="D">
         <img src="4.jpg" alt="">
         <div class="col-md-5 offset-md-1 mb-3">
             <form>
@@ -345,19 +354,20 @@
         <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
       </div>
     </div>-->
-  </section> 
+  </section>
 
 
 
   <script src="main.js"></script>
-<script src="bootstrap.bundle.min.js"></script>  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-crossorigin="anonymous"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
-<!-- link to js -->
-<script src="index.js"></script>
+  <!-- link to js -->
+  <script src="index.js"></script>
 
 
 </body>
+
 </html>

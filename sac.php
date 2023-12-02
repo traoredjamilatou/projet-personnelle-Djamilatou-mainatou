@@ -1,30 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="sac.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="annanymous"></script>
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-    <title>Sac</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+  <link rel="stylesheet" href="sac.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="annanymous"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
 </head>
+<title>Sac</title>
+</head>
+
 <body>
 
   <header>
-  <?php include ("menu.php") ?>
+    <?php include ("menu.php") ?>
 
- <!-- <nav class="navbar navbar-expand-lg  bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg  bg-dark">
   <div class="container-fluid">
   <div class="logo">
   <img src="27.webp" class="A">
@@ -85,9 +86,9 @@
 </div>
 </nav>  -->
 
-</header>
+  </header>
 
-<!-- carousel -->
+  <!-- carousel -->
   <div class="home1" id="home1">
     <div class="swiper home-slid">
       <div class="swiper-wrapper">
@@ -100,123 +101,125 @@
             <h3>grow ams business</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
             </p>
-            <!-- <a href="#" class="no">Get start</a> -->
           </div>
-        
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <br> <br> <br>
-  
-  
-  <section class="shop container">
-<h2 class="section-title">Articles a la une</h2> 
+    <br> <br> <br>
 
- <div class="shop-content">
 
-    <div class="product-box">
-        <img src="IMG-20231113-WA0005.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 5</h2>
-        <span class="price">4000cfa</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+    <section class="shop container">
+      <h2 class="section-title">Articles a la une</h2>
 
-     <div class="product-box">
-        <img src="23.webp" alt="" class="product-img">
-        <h2 class="product-title">SAC 6</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      <div class="shop-content">
 
-     <div class="product-box">
-        <img src="IMG-20231113-WA0009.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 7</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+        <div class="product-box">
+          <img src="IMG-20231113-WA0005.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 5</h2>
+          <span class="price">4000cfa</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-     <div class="product-box">
-        <img src="25.webp" alt="" class="product-img">
-        <h2 class="product-title">SAC 8</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
-    
-</div>
+        <div class="product-box">
+          <img src="23.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 6</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-</section>
-<section class="shop container">
-<!-- <h2 class="section-title">Sac de luxe</h2> -->
-<div class="shop-content">
+        <div class="product-box">
+          <img src="IMG-20231113-WA0009.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 7</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-     <div class="product-box">
-        <img src="IMG-20231113-WA0007.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 1</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+        <div class="product-box">
+          <img src="25.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 8</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-     <div class="product-box">
-        <img src="24.webp" alt="" class="product-img">
-        <h2 class="product-title">SAC 2</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      </div>
 
-     <div class="product-box">
-        <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 3</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div> 
+    </section>
+    <section class="shop container">
+      <div class="shop-content">
 
-     <div class="product-box">
-        <img src="19.webp" alt="" class="product-img">
-        <h2 class="product-title">SAC 4</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
-</div>
-</section>
+        <div class="product-box">
+          <img src="IMG-20231113-WA0007.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 1</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-<!-- Marketing messaging and featurettes
+        <div class="product-box">
+          <img src="24.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 2</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+          <img src="IMG-20231113-WA0018.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 3</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+          <img src="19.webp" alt="" class="product-img">
+          <h2 class="product-title">SAC 4</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marketing messaging and featurettes
       ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container marketing">
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="18.webp" alt="Generic placeholder image" width="150" height="150">
-            <h2>Titre</h2>
-            <h3>Des expériences d’achat flexibles</h3>
-            <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de retour simplifiée.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="IMG-20231113-WA0020.jpg" alt="Generic placeholder image" width="150" height="150">
-            <h2>Titre</h2>
-            <h3>Une interface de gestion unifiée</h3>
-            <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre de points de vente.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="25.webp" alt="Generic placeholder image" width="150" height="150">
-            <h2>Titre</h2>
-            <h3>Des rapports essentiels</h3>
-            <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon site web.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div> 
-        </div>        
-       
-        
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="18.webp" alt="Generic placeholder image" width="150" height="150">
+          <h2>Titre</h2>
+          <h3>Des expériences d’achat flexibles</h3>
+          <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de
+            retour simplifiée.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="IMG-20231113-WA0020.jpg" alt="Generic placeholder image" width="150"
+            height="150">
+          <h2>Titre</h2>
+          <h3>Une interface de gestion unifiée</h3>
+          <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre
+            de points de vente.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="25.webp" alt="Generic placeholder image" width="150" height="150">
+          <h2>Titre</h2>
+          <h3>Des rapports essentiels</h3>
+          <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon
+            site web.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+    </div>
 
-       <section class="omni">
-        <?php include ("footer.php") ?>
 
-         <!-- <div class="D">
+
+    <section class="omni">
+      <?php include ("footer.php") ?>
+
+      <!-- <div class="D">
             <img src="4.jpg" alt="">
             <div class="col-md-5 offset-md-1 mb-3">
                 <form>
@@ -314,11 +317,12 @@
             <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
           </div>
         </div>-->
-      </section> 
-      <script src="index.js"></script>
-  <script src="bootstrap.bundle.min.js"></script>  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+    </section>
+    <script src="index.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>

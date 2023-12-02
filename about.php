@@ -25,8 +25,8 @@
 
   <!-- header -->
   <header>
-  <?php include ("menu.php") ?>
- <!-- <nav class="navbar navbar-expand-lg  bg-dark">
+    <?php include ("menu.php") ?>
+    <!-- <nav class="navbar navbar-expand-lg  bg-dark">
   <div class="container-fluid">
   <div class="logo">
   <img src="27.webp" class="A">
@@ -89,10 +89,10 @@
   </div>
 </div>
 </nav>        -->
-    </header>
+  </header>
 
 
- 
+
   <!-- carousel -->
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-inner">
@@ -138,7 +138,7 @@
   </div>
 
 
-  
+
   <section class="B">
     <div class="C">
       <h1>Présentation</h1>
@@ -222,58 +222,58 @@
     </div>
     <hr>
   </section>
-  
-   <section class="about" id="about">
-  <div class="achiv">
-  <div class="content">
-    <i class="fa-solid fa-face-laugh-beam"><span>232</span></i>
-    <p>la satisfaction des clients</p>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-book"><span>521</span></i>
-    <p>mon parcour</p>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-headset"><span>1463</span></i>
-    <p>heureux clinets conséquence</p>
-  </div>
-  
-  <div class="content">
-    <i class="fa-solid fa-user-group"><span>232</span></i>
-    <p>ma familles</p>
-  </div>
-  </div>
+
+  <section class="about" id="about">
+    <div class="achiv">
+      <div class="content">
+        <i class="fa-solid fa-face-laugh-beam"><span>232</span></i>
+        <p>la satisfaction des clients</p>
+      </div>
+
+      <div class="content">
+        <i class="fa-solid fa-book"><span>521</span></i>
+        <p>mon parcour</p>
+      </div>
+
+      <div class="content">
+        <i class="fa-solid fa-headset"><span>1463</span></i>
+        <p>heureux clinets conséquence</p>
+      </div>
+
+      <div class="content">
+        <i class="fa-solid fa-user-group"><span>232</span></i>
+        <p>ma familles</p>
+      </div>
+    </div>
   </section>
   <section class="services" id="services">
-<h2 class="heading">notre services</h2>
-<div class="row">
+    <h2 class="heading">notre services</h2>
+    <div class="row">
 
- <div class="box">
-  <i class="fa-solid fa-briefcase"></i>
-  <h3>Vendez au Burkina Faso</h3>
-  <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
-</div>
+      <div class="box">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Vendez au Burkina Faso</h3>
+        <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
+      </div>
 
-<div class="box">
-  <i class="fa-solid fa-list-check"></i>
-  <h3>Vendez au Burkina Faso</h3>
-  <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
-</div>
+      <div class="box">
+        <i class="fa-solid fa-list-check"></i>
+        <h3>Vendez au Burkina Faso</h3>
+        <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
+      </div>
 
-<div class="box">
-  <i class="fa-solid fa-chart-column"></i>
-  <h3>Vendez au Burkina Faso</h3>
-  <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
-</div>
-</div>
-</section>
+      <div class="box">
+        <i class="fa-solid fa-chart-column"></i>
+        <h3>Vendez au Burkina Faso</h3>
+        <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
+      </div>
+    </div>
+  </section>
   <div class="main-btn">
     <a href="#" class="btn2">ACHETEZ MAINTENANT</a>
-  </div> 
+  </div>
   <section class="omni">
-  <?php include ("footer.php") ?>
+    <?php include ("footer.php") ?>
 
     <!-- <div class="D">
         <img src="4.jpg" alt="">
@@ -380,7 +380,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+  <script src="index.js"></script>
 
 </body>
 

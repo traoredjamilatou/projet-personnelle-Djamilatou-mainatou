@@ -8,7 +8,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
   <!-- cdn fontawsam -->
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="annanymous"></script>
   <!-- cdn swiper -->
@@ -26,10 +26,10 @@
 </head>
 
 <body>
-<header>
-<?php include ("menu.php") ?>
+  <header>
+    <?php include ("menu.php") ?>
 
- <!-- <nav class="navbar navbar-expand-lg  bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg  bg-dark">
   <div class="container-fluid">
   <div class="logo">
   <img src="27.webp" class="A">
@@ -93,7 +93,7 @@
 </nav>  -->
 
 
-</header>
+  </header>
   <div class="home1" id="home1">
     <div class="swiper home-slid">
       <div class="swiper-wrapper">
@@ -106,142 +106,144 @@
             <h3>Développer mon activité</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne et partout.
             </p>
-            <!-- <a href="#" class="no">Commencer</a> -->
           </div>
-        
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <section class="shop container">
-<h2 class="section-title">Articles a la une</h2> 
 
- <div class="shop-content">
+    <section class="shop container">
+      <h2 class="section-title">Articles a la une</h2>
 
-    <div class="product-box">
-        <img src="5.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 5</h2>
-        <span class="price">4000cfa</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+      <div class="shop-content">
 
-     <div class="product-box">
-        <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 6</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+        <div class="product-box">
+          <img src="5.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 5</h2>
+          <span class="price">4000cfa</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-     <div class="product-box">
-        <img src="6.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 7</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+        <div class="product-box">
+          <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 6</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-     <div class="product-box">
-        <img src="4.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 8</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
-    
-</div>
+        <div class="product-box">
+          <img src="6.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 7</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-</section>
-<section class="shop container">
-<!-- <h2 class="section-title">Sac de luxe</h2> -->
-<div class="shop-content">
+        <div class="product-box">
+          <img src="4.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 8</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-     <div class="product-box">
-        <img src="5.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 1</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
-
-     <div class="product-box">
-        <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 2</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
-
-     <div class="product-box">
-        <img src="6.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 3</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div> 
-
-     <div class="product-box">
-        <img src="4.jpg" alt="" class="product-img">
-        <h2 class="product-title">SAC 4</h2>
-        <span class="price">4000CFA</span>
-        <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
-</div>
-</section>
-   
-  <section class="about" id="about">
-    <div class="rw">
-      <div class="images">
-        <img src="6.jpg" alt="">
       </div>
-      <div class="box">
-        <h1>Valorise mes produit</h1>
-        <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de
-          retour simplifiée.</p>
-        <div class="content">
-          <div class="icons">
 
-            <div class="icons-about">
-              <i class="fa-solid fa-newspaper"></i>
-              <h4>Des rapports essentiels</h4>
-              <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de
-                mon site web.
-              </p>
-            </div>
+    </section>
+    <section class="shop container">
+      <div class="shop-content">
 
-            <div class="icons-about">
-              <i class="fa-solid fa-cube"></i>
-              <h4>Des rapports essentiels</h4>
-              <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de
-                mon site web.
-              </p>
-            </div>
+        <div class="product-box">
+          <img src="5.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 1</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-            <div class="icons-about">
-              <i class="fa-solid fa-image"></i>
-              <h4>Des rapports essentiels</h4>
-              <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de
-                mon site web.
-              </p>
-            </div>
+        <div class="product-box">
+          <img src="IMG-20231113-WA0012.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 2</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
 
-            <div class="icons-about">
-              <i class="fa-solid fa-shield-halved"></i>
-              <h4>Des rapports essentiels</h4>
-              <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de
-                mon site web.
-              </p>
+        <div class="product-box">
+          <img src="6.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 3</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+          <img src="4.jpg" alt="" class="product-img">
+          <h2 class="product-title">SAC 4</h2>
+          <span class="price">4000CFA</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="rw">
+        <div class="images">
+          <img src="6.jpg" alt="">
+        </div>
+        <div class="box">
+          <h1>Valorise mes produit</h1>
+          <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de
+            retour simplifiée.</p>
+          <div class="content">
+            <div class="icons">
+
+              <div class="icons-about">
+                <i class="fa-solid fa-newspaper"></i>
+                <h4>Des rapports essentiels</h4>
+                <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente
+                  de
+                  mon site web.
+                </p>
+              </div>
+
+              <div class="icons-about">
+                <i class="fa-solid fa-cube"></i>
+                <h4>Des rapports essentiels</h4>
+                <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente
+                  de
+                  mon site web.
+                </p>
+              </div>
+
+              <div class="icons-about">
+                <i class="fa-solid fa-image"></i>
+                <h4>Des rapports essentiels</h4>
+                <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente
+                  de
+                  mon site web.
+                </p>
+              </div>
+
+              <div class="icons-about">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h4>Des rapports essentiels</h4>
+                <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente
+                  de
+                  mon site web.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section> --> -->
- 
+    </section>
 
 
 
 
-<section class="omni">
-    <?php include ("footer.php") ?>
 
-     <!-- <div class="D">
+    <section class="omni">
+      <?php include ("footer.php") ?>
+
+      <!-- <div class="D">
         <img src="4.jpg" alt="">
         <div class="col-md-5 offset-md-1 mb-3">
             <form>
@@ -339,7 +341,7 @@
         <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
       </div>
     </div>-->
-  </section> 
+    </section>
 
 
 
@@ -347,13 +349,13 @@
 
 
 
-  <!-- cdn sweiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="index.js"></script>
-  <script src="bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+    <!-- cdn sweiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
